@@ -14,7 +14,6 @@ function App() {
   const [search, setSearch] = useState("");
   const [data, setData] = useState({});
   const [icon, setIcon] = useState("");
-
   function handleChange(e) {
     setData({});
     setSearch(e.target.value);
