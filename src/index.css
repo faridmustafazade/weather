@@ -1,13 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: bitter-rose;
+  src: url("./Assets/Fonts/Bitter-Rose/Bitter\ Rose\ DEMO.otf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: chillax;
+  src: url("./Assets/Fonts/Chillax/Chillax_Complete/Fonts/OTF/Chillax-Medium.otf");
+}
+@font-face {
+  font-family: chillax-regular;
+  src: url("./Assets/Fonts/Chillax/Chillax_Complete/Fonts/OTF/Chillax-Regular.otf");
 }
