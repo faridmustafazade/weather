@@ -88,7 +88,7 @@ function App() {
   }, []);
   return (
     <>
-      <div className="bg-[#263747] bg-cover bg-center h-[100vh] relative">
+      <div className="bg-banner bg-cover bg-center h-[100vh] relative">
         <div className="absolute inset-0 bg-black opacity-40"></div>
         <div className="text-white relative z-10 flex justify-center items-center h-[100vh]">
           <div className="bg-white sm:px-10 py-10 sm:w-auto w-[95%] rounded-2xl flex flex-col justify-center items-center">
